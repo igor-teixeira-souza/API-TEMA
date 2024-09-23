@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+* {
+    margin: 0;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+body{
+    height: 100%;
+    overflow-x: hidden;
+    background-image: url(img/Shibuya_29.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: 1s;
+    transition: all;
+}
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50vw;
+    font-size: 20px;
+    color: white;
+    margin-top: 100px;
+    padding-left: 150px;
+
+}
+
+section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+header{
+    background-color: rgba(0, 0, 0, 0.726);
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.interrogacao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10%;
+}
+
+#imagem{
+    justify-content: center;
+    margin-top: 100px;
+    display: flex;
+    margin-bottom: 20px;
+    border-color: rgb(251, 255, 0);
+    height: 50vh;
+    padding-top: 38%;
+    background-color: rgba(0, 0, 0, 0);
+    margin-bottom: 190px;
+}
+
+.informacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(255, 255, 255);
+    border: 2px solid;
+    border-color: yellow;
+    height: 60vh;
+    width: 30vw;
+    backdrop-filter: blur(20px);
+    background-color: rgba(231, 76, 76, 0.438)
+    
+    
+}
+
+.dados{
+    background-color: black;
+    backdrop-filter: blur(20px);
+    background-color: rgb(17, 16, 16);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 20vh;
+    width: 20vw;
+    border: 1px solid;
+    border-color: yellow;
+    backdrop-filter: blur(60px);
+    position: fixed;
+    bottom: -200px;
+    font-size: 20px;
+
+}
+.botao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 1px solid;
+    height: 35%;
+    width: 15%;
+    background-color: rgba(255, 3, 3, 0.199);
+    backdrop-filter: blur(10px);
+    border-radius: 10px;
+    border-color: rgb(251, 255, 0);
+    font-size: 100px;
+    
+}
+
+
+.botao1,.botao2,.botao3,.botao4,.botao5,.botao6{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 10vw;
+    font-size: 20px;
+    flex-wrap: wrap
+}
+
+button:hover{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scale: 1.1;
+    transition: 0.5s;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+}
+
+footer{
+    height: 10vh;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+}
+
+
+
+
